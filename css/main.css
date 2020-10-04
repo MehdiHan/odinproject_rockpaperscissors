@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+body {
+  color: #ffffff;
+  background-color: #101419;
+  font-family: 'Carter One', cursive;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #f46036;
+}
+h1 {
+  font-size: 1.725rem;
+}
+header,
+footer {
+  text-align: center;
+  min-height: 5vh;
+}
+main {
+  display: flex;
+  min-height: 90vh;
+}
+.app__container {
+  max-width: 940px;
+  margin: auto;
+}
+.app__results__container {
+  min-height: 80px;
+}
+.app__players__container {
+  display: flex;
+  justify-content: space-between;
+}
+.app__players__card {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+
+  background: #080a0c url(/img/avatar_player.png) bottom center no-repeat;
+}
+.app__players__card:last-child {
+  background-image: url(/img/avatar_computer.png);
+}
+
+.app__card__name {
+  padding: 5px 0 0 15px;
+}
+
+.app__players__score {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 92px;
+  font-weight: bold;
+}
+.app__players__score span {
+  margin: 0 40px;
+}
+.app__choices__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 80px 0 80px;
+}
+.app__choices__container div {
+  width: 80px;
+  height: 80px;
+}
+.app__choice__item {
+  text-align: center;
+  text-transform: uppercase;
+}
+.rock__button {
+  background: transparent url(/img/vector_rock.png) center center no-repeat;
+}
+.paper__button {
+  background: transparent url(/img/vector_paper.png) center center no-repeat;
+}
+.scissors__button {
+  background: transparent url(/img/vector_scissors.png) center center no-repeat;
+}
