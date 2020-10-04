@@ -16,16 +16,15 @@
     </header>
     <main>
       <div id="app" class="app__container">
-        <div class="app__results__container">
-          Results of each rounds will be displayed here
-        </div>
+        <div id="resultsContainer" class="app__results__container"></div>
         <div class="app__players__container">
           <div class="app__players__card">
             <div class="app__card__name">You</div>
           </div>
           <div class="app__scores__container">
             <div class="app__players__score">
-              <span id="playerScore">5</span> - <span id="playerScore">0</span>
+              <span id="playerScore"></span> -
+              <span id="computerScore"></span>
             </div>
           </div>
           <div class="app__players__card">
@@ -34,15 +33,15 @@
         </div>
         <div class="app__choices__container">
           <div class="app__choice__item">
-            <div class="rock__button"></div>
+            <div data-value="rock" class="rock__button"></div>
             Rock
           </div>
           <div class="app__choice__item">
-            <div class="paper__button"></div>
+            <div data-value="paper" class="paper__button"></div>
             Paper
           </div>
           <div class="app__choice__item">
-            <div class="scissors__button"></div>
+            <div data-value="scissors" class="scissors__button"></div>
             Scissors
           </div>
         </div>
