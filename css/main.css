@@ -53,10 +53,10 @@ main {
   height: 200px;
   border-radius: 10px;
 
-  background: #080a0c url(/img/avatar_player.png) bottom center no-repeat;
+  background: #080a0c url(images/avatar_player.png) bottom center no-repeat;
 }
 .app__players__card:last-child {
-  background-image: url(/img/avatar_computer.png);
+  background-image: url(images/avatar_computer.png);
 }
 
 .app__card__name {
@@ -89,11 +89,12 @@ main {
   text-transform: uppercase;
 }
 .rock__button {
-  background: transparent url(/img/vector_rock.png) center center no-repeat;
+  background: transparent url(images/vector_rock.png) center center no-repeat;
 }
 .paper__button {
-  background: transparent url(/img/vector_paper.png) center center no-repeat;
+  background: transparent url(images/vector_paper.png) center center no-repeat;
 }
 .scissors__button {
-  background: transparent url(/img/vector_scissors.png) center center no-repeat;
+  background: transparent url(images/vector_scissors.png) center center
+    no-repeat;
 }
